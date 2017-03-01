@@ -1,0 +1,35 @@
+.container {
+	display: block;
+	width: 50%;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,7db9e8+100 */
+	background: #1e5799; /* Old browsers */
+	background: -moz-linear-gradient(top,  #1e5799 0%, #7db9e8 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #1e5799 0%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #1e5799 0%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+
+	width: 15rem;
+	width: 20em;
+	width: 100px;
+}
+
+.wrapper {
+	width: 50%;
+	background-color: #7f8c8d;
+
+	width: 5rem;
+	width: 20em;
+	width: 80px;
+}
+
+/*
+
+Jednostka % - jednostka relatywna. Procent wartości innej właściwości.
+
+Jednostka rem - jednostka relatywna. Względna wobec wielkości fonta głównego elementu (zazwyczaj od elementu html).
+
+Jednostka em - jednostkla relatywna. Względna wobec wielkości fonta elementu.
+
+Jednostka px - jednostka absolutna. Liczba pikseli CSS (przy założeniu, że ekran ma rozdzielczość 96 dpi)
+
+ */

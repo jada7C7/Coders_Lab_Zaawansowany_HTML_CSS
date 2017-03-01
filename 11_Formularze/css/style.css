@@ -1,0 +1,14 @@
+form {
+	width: 260px;
+	box-sizing: border-box;
+	font-size: 25px;
+}
+
+button {
+	display: block;
+	font-size: 13px;
+}
+
+form textarea {
+	margin-top: 10px;
+}

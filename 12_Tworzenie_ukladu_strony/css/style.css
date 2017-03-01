@@ -1,0 +1,102 @@
+/*
+h1,h2,h3,p {
+    padding:0.5rem 0;
+}
+ 
+
+.bgMainColor{
+    background:green;
+}
+
+.container{
+    display: block;
+    width:600px;
+    margin:0 auto;
+    border: 1px solid #000;
+}
+
+header section.container{
+    padding:1.2rem 0;
+}
+
+.products product{
+    display: block;
+    width:50%;
+    border:1px solid #000;
+    float:left;
+}
+
+.products::after{
+    content: "";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+*/
+
+
+/* Zadanie */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Verdana, sen-serif;
+    font-size: 1rem;
+    color: #fff;
+}
+
+header {
+    background: url(../images/night-sky.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h3, .ft {
+    padding: 0.2rem 0;
+}
+
+p {
+    margin: 0.125rem 0;
+}
+
+.container {
+    margin: 0 auto;
+    display: block;
+    width: 1100px;
+}
+
+.wrapper {
+    display: block;
+    padding-top: 0.7rem;
+}
+
+.wrapper .paraf1 {
+    background-color: lightblue;
+    width: 33.33%;
+    float: left;
+    color: #000;
+}
+
+.wrapper .paraf2 {
+    background-color: blue;
+    width: 50%;
+    float: left;
+}
+
+.wrapper::after{
+    content: "";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+footer {
+    background-color: navy;
+}
+

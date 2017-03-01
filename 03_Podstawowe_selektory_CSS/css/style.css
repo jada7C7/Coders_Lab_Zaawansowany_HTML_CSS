@@ -1,0 +1,69 @@
+/* ----- Task 1 ----- */
+
+p {
+	background: #c0392b;
+}
+
+#inny {
+	background: #2980b9;
+}
+
+.blog {
+	background: #EEE1CE;
+}
+
+.blog p {
+	background: #FC3468;
+}
+
+#rodzic > p {
+	background: #27ae60;
+}
+
+#rodzic p {
+	background: #0099BD;
+}
+
+#other + p {
+	background: #3F1D0B;
+}
+
+#other div p {
+	background: #8e44ad;
+}
+
+
+/* ----- Task 2 ----- */
+
+h1, h2, h3, h4, h5 {
+	background: #2ecc71;
+}
+
+.white, .black {
+	background: #bdc3c7;
+}
+
+div.important {
+	background: #75DB1B;
+}
+
+.white, .black, .important  {
+	background: #00BDFD;
+}
+
+/* ----- Task 3 ----- */
+
+input[type="submit"] {
+	background: blue;
+}
+input[type="email"] {
+	background: green;
+}
+
+span[class~="important"] { 
+	background: red;
+}
+
+span[class^="important"] {
+	background: pink;
+}
